@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>Basketball Scoreboard</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+      <link
+        href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+        rel="stylesheet" />
+      <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+      <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+      <div class="container">
+        <div id="header">
+          <div id="countdown-timer">12:00</div>
+        </div>
+        <div id="main">
+          <div class="main-item">
+            <h3>HOME</h3>
+            <div class="display home-score-value">0</div>
+          </div>
+          <div class="main-item">
+            <h3>GUEST</h3>
+            <div class="display guest-score-value">0</div>
+          </div>
+        </div>
+        <div id="footer">
+          <div class="footer-item">
+            <button
+              type="button"
+              class="btn home one-point-btn"
+              data-points="1">
+              +1
+            </button>
+            <button
+              type="button"
+              class="btn home two-point-btn"
+              data-points="2">
+              +2
+            </button>
+            <button
+              type="button"
+              class="btn home three-point-btn"
+              data-points="3">
+              +3
+            </button>
+          </div>
+          <div class="footer-item">
+            <button type="button" class="btn" id="new-game-btn">
+              New Game
+            </button>
+          </div>
+          <div class="footer-item">
+            <button
+              type="button"
+              class="btn guest one-point-btn"
+              data-points="1">
+              +1
+            </button>
+            <button
+              type="button"
+              class="btn guest two-point-btn"
+              data-points="2">
+              +2
+            </button>
+            <button
+              type="button"
+              class="btn guest three-point-btn"
+              data-points="3">
+              +3
+            </button>
+          </div>
+        </div>
+      </div>
+      <p id="image-source">
+        Foto von
+        <a
+          href="https://unsplash.com/de/@jdanielw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+          target="_blank"
+          >Jeremy Wallace</a
+        >
+        auf
+        <a
+          href="https://unsplash.com/de/fotos/_XjW3oN8UOE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+          target="_blank"
+          >Unsplash</a
+        >
+      </p>
+      <script src="index.js"></script>
+    </body>
+  </html>
+</html>
