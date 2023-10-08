@@ -52,9 +52,10 @@ body {
 
 h3 {
   color: var(--white);
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 54px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 48px;
   font-style: normal;
+  font-weight: bold;
   font-weight: 700;
   line-height: 64px;
   text-align: center;
