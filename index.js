@@ -54,18 +54,18 @@ let remainingTime = 12 * 60 * 1000; // 12 Minuten in ms
 function displayTime() {
   const minutes = Math.floor((remainingTime / 1000 / 60) % 60);
   const seconds = Math.floor((remainingTime / 1000) % 60);
-  let timeFormatting = "";
+  let timeFormat = "";
 
   if (seconds < 10 && minutes < 10) {
-    timeFormatting = `0${minutes}:0${seconds}`;
+    timeFormat = `0${minutes}:0${seconds}`;
   } else if (seconds < 10) {
-    timeFormatting = `${minutes}:0${seconds}`;
+    timeFormat = `${minutes}:0${seconds}`;
   } else if (minutes < 10) {
-    timeFormatting = `0${minutes}:${seconds}`;
+    timeFormat = `0${minutes}:${seconds}`;
   } else {
-    timeFormatting = `${minutes}:${seconds}`;
+    timeFormat = `${minutes}:${seconds}`;
   }
-    countdownTimerVal.innerText = timeFormatting;
+    countdownTimerVal.innerText = timeFormat;
 }
 // Clear timer
 function clearTimer() {
