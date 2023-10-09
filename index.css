@@ -24,7 +24,7 @@ body {
 .container {
   background: var(--blue);
   border-radius: 5px;
-  margin-top: 15vh;
+  margin-top: 150px;
   opacity: 0.95;
   padding: 50px;
   width: 575px;
@@ -73,9 +73,9 @@ h3 {
   color: var(--red);
   font-family: "Cursed Timer ULiL", monospace;
   font-size: 90px;
-  line-height: 1.2;
+  line-height: 1;
   padding: 10px;
-  margin-bottom: 26px;
+  margin-bottom: 20px;
   text-align: center;
   width: 155px;
 }
@@ -89,13 +89,6 @@ h3 {
   justify-content: space-between;
 }
 
-.footer-item .btn {
-  margin-right: 4px;
-}
-.footer-item:last-child .btn:last-child {
-  margin-right: 0;
-}
-
 .btn {
   background: none;
   border: 2px solid var(--white);
@@ -106,6 +99,7 @@ h3 {
   font-size: 18px;
   font-weight: bold;
   line-height: 28px;
+  margin: 2px;
   padding: 5px 10px;
   text-transform: uppercase;
 }
