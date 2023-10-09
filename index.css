@@ -50,12 +50,18 @@ body {
   justify-content: space-between;
 }
 
+.main-item {
+  margin-right: 20px;
+}
+
+.main-item:last-child {
+  margin-right: 0;
+}
+
 h3 {
   color: var(--white);
   font-family: "Roboto Condensed", sans-serif;
   font-size: 48px;
-  font-style: normal;
-  font-weight: bold;
   font-weight: 700;
   line-height: 64px;
   text-align: center;
@@ -67,8 +73,8 @@ h3 {
   color: var(--red);
   font-family: "Cursed Timer ULiL", monospace;
   font-size: 90px;
-  height: 120px;
-  line-height: 127px;
+  line-height: 1.2;
+  padding: 10px;
   margin-bottom: 26px;
   text-align: center;
   width: 155px;
@@ -83,10 +89,10 @@ h3 {
   justify-content: space-between;
 }
 
-#footer button {
+.footer-item .btn {
   margin-right: 4px;
 }
-#footer button:last-child {
+.footer-item:last-child .btn:last-child {
   margin-right: 0;
 }
 
@@ -98,7 +104,6 @@ h3 {
   cursor: pointer;
   font-family: "Courier New", Courier, monospace;
   font-size: 18px;
-  font-style: normal;
   font-weight: bold;
   line-height: 28px;
   padding: 5px 10px;
